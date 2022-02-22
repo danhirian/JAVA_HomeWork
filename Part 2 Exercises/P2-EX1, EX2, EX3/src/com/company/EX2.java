@@ -6,7 +6,6 @@ public class EX2 {
 
         String string = "Madam";
         boolean flag = true;
-
         string = string.toLowerCase();
 
         for(int i = 0; i < string.length()/2; i++){

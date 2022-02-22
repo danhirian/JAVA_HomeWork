@@ -34,7 +34,6 @@ public class Organization {
 
                 //updating employee information
 
-
                 //searching employee by attribute !!!NOT WORKING
                 for (Employees i : database.values()){
                         if(database.values().contains("Peter")){
@@ -44,7 +43,6 @@ public class Organization {
                         }
                 }
 
-
                 //traversing and printing the map
                 for(Map.Entry<Integer, Employees> entry:database.entrySet()){
                         int key=entry.getKey();
@@ -52,9 +50,6 @@ public class Organization {
                         System.out.println(key+" Details:");
                         System.out.println(b.name+" "+b.age+" "+b.gender+" "+b.department+" "+b.title+" "+b.salary);
                 }
-
-
-
         }
 
 

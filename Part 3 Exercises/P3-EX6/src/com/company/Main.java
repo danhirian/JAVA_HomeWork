@@ -17,10 +17,5 @@ public class Main {
         stringsArray.add(Collections.singletonList("polymorphizm"));
 
         System.out.println("The elements are: "+stringsArray);
-
-        
-
-
-
     }
 }

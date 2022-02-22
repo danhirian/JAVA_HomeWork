@@ -16,10 +16,8 @@ public class Counting {
             if( returnConsonants(String.valueOf(firstList.get(i)))>biggestConsNo)
                 wordWithMostConsonants= String.valueOf(firstList.get(i));
         }
-        return "Largest VowelsNo: "+wordWithMostVowels+biggestVowelsNo + "Largest ConsNo:" + wordWithMostConsonants+ biggestConsNo;
-
+        return "Largest VowelsNo: "+wordWithMostVowels+biggestVowelsNo + "Largest ConsNo:" +wordWithMostConsonants+ biggestConsNo;
     }
-
 
     public static int returnVowels(String str) {
         int vCount=0;

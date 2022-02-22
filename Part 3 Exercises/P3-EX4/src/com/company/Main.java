@@ -24,7 +24,6 @@ public class Main {
             //reading array elements from the user
             array[i] = sc.nextInt();
         }
-
         System.out.println("You entered the following elements: " + Arrays.toString(array));
 
         int oddSize = 0;
@@ -48,25 +47,11 @@ public class Main {
             else
                 odd[k++] = array[i];
         }
-
         //creating 2 variables to store the number of elements in the arrays
         int evenCounter = even.length;
         int oddCounter = odd.length;
-
-
         HashMap m = map(evenCounter, oddCounter);
         System.out.println(m);
-
-
-
-
-
-
-
-
-
-
         }
-
     }
 

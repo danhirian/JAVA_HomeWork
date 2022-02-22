@@ -2,9 +2,9 @@ package com.company;
 
 import java.util.Scanner;
 
-import static com.company.Convert.convert;
+import static com.company.Convert.convertString;
 
-public class Main {
+public class Main{
 
     public static void main(String[] args) {
 
@@ -12,8 +12,7 @@ public class Main {
         System.out.print("Enter String: ");
         String str= scan.nextLine();
         System.out.println("You entered: "+ str);
-
-        convert(str.toCharArray());
+        convertString(str.toCharArray());
 
 
     }
