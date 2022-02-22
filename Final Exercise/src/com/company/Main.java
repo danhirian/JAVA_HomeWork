@@ -11,8 +11,8 @@ public class Main {
         //printing the Organization
         Organization crossOver = new Organization();
         crossOver.org();
-        }
     }
+}
 
 
 

@@ -14,8 +14,7 @@ public class Sort {
         sorted.putAll(EmptyMap);
 
         for (Map.Entry<String, String> entry : sorted.entrySet())
-            System.out.println("Key = " + entry.getKey() +
-                    ", Value = " + entry.getValue());
+            System.out.println("Key = " + entry.getKey() + ", Value = " + entry.getValue());
     }
 
 }

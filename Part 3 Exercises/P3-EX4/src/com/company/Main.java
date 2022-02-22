@@ -3,7 +3,6 @@ package com.company;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Scanner;
-
 import static com.company.Map.map;
 import static com.company.Print.printArray;
 
@@ -52,6 +51,6 @@ public class Main {
         int oddCounter = odd.length;
         HashMap m = map(evenCounter, oddCounter);
         System.out.println(m);
-        }
     }
+}
 

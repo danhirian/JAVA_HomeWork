@@ -16,7 +16,7 @@ public class Convert {
                 str[i] = k;
             }
         }
-        for(char c : str)
+        for (char c : str)
             System.out.print(c);
     }
 }

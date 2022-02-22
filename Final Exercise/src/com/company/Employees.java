@@ -1,6 +1,6 @@
 package com.company;
 
-public class Employees{
+public class Employees {
     String name;
     int age;
     char gender;
@@ -8,7 +8,7 @@ public class Employees{
     String title;
     double salary;
 
-    Employees(String n, int a, char gen, String dep, String t, double sal){
+    Employees(String n, int a, char gen, String dep, String t, double sal) {
         name = n;
         age = a;
         gender = gen;
