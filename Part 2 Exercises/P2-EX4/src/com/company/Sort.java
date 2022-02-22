@@ -10,7 +10,6 @@ public class Sort {
 
     //created a function that sorts by key
     public static void sortByKey() {
-
         TreeMap<String, String> sorted = new TreeMap<>();
         sorted.putAll(EmptyMap);
 

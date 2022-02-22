@@ -43,10 +43,10 @@ public class EX3 {
                 specialString = specialString + " " + initialString.replace(initialString, "special");
             }
         }
-        System.out.println("Printing the updated string: " +s1);
-        System.out.println("Printing the updated array: " +EmptyList);
-        System.out.println("Initial string is: " +initialString);
-        System.out.println("The 'special' string is: " +specialString);
+        System.out.println("Printing the updated string: " + s1);
+        System.out.println("Printing the updated array: " + EmptyList);
+        System.out.println("Initial string is: " + initialString);
+        System.out.println("The 'special' string is: " + specialString);
 
 
 

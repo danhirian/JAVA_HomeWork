@@ -11,7 +11,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-
         //added entries to the map
         EmptyMap.put("Jack Denis", "jackD@gmail.com");
         EmptyMap.put("Grey Goose", "theGoose@gmail.com");
@@ -38,10 +37,7 @@ public class Main {
         String returned_value = (String) EmptyMap.remove("Grey Goose");
         System.out.println("Returned value is: " + returned_value);
         System.out.println("The new map is: " + EmptyMap);
-
-
     }
-
 }
 
 
