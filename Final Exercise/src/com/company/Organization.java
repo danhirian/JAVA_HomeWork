@@ -8,7 +8,6 @@ import java.util.Map;
 public class Organization {
 
     public void org() {
-
         //creating the map
         Map<Integer, Employees> database = new HashMap<Integer, Employees>();
 
@@ -33,6 +32,7 @@ public class Organization {
         database.put(6, new Employees("Peter", 67, 'M', "Maintenance", "Janitor", 5000));
 
         //updating employee information
+        database.put(1, new Employees("REPLACED", 45, 'M', "IT", "SysAdmin", 25000));
 
         //searching employee by attribute !!!NOT WORKING
         for (Employees i : database.values()) {
@@ -42,7 +42,6 @@ public class Organization {
                 System.out.println("Not found");
             }
         }
-
         //traversing and printing the map
         for (Map.Entry<Integer, Employees> entry : database.entrySet()) {
             int key = entry.getKey();
@@ -51,8 +50,6 @@ public class Organization {
             System.out.println(b.name + " " + b.age + " " + b.gender + " " + b.department + " " + b.title + " " + b.salary);
         }
     }
-
-
 }
 
 

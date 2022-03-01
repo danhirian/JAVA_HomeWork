@@ -14,10 +14,8 @@ public class EX2 {
                 break;
             }
         }
-        if (flag)
-            System.out.println("Given string is palindrome");
-        else
-            System.out.println("Given string is not a palindrome");
+        if (flag) System.out.println("Given string is palindrome");
+        else System.out.println("Given string is not a palindrome");
     }
 }
 

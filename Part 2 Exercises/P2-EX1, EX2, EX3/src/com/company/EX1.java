@@ -10,9 +10,7 @@ public class EX1 {
         String s3 = s1.concat(s2);
         System.out.println(s3);
         System.out.println("EXERCISE 1 COMPLETED");
-
     }
-
 }
 
 
